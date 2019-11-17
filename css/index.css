@@ -126,6 +126,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  font-size: 16px;
+}
+html body {
+  margin: 0;
+}
 .team {
   display: flex;
   flex-direction: column;
@@ -146,6 +152,7 @@ table {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 .team .cards section {
   display: flex;
