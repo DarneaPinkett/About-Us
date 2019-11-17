@@ -126,6 +126,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #3E3175;
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
 html {
   font-size: 16px;
 }
