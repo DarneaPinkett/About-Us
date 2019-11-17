@@ -132,11 +132,15 @@ table {
   align-items: center;
   padding: 30px 10%;
   background-color: #3E3175;
-  list-style: none;
+  border: 2px solid red;
+  margin-bottom: 100px;
 }
-.nav_links li {
+.nav_links a {
   display: inline-block;
+  text-decoration: none;
   padding: 0px 20px;
+  font-size: 2rem;
+  color: white;
 }
 html {
   font-size: 16px;
@@ -150,6 +154,10 @@ html body {
   justify-content: center;
   align-items: center;
   height: 800px;
+}
+.team .content {
+  margin: 20px;
+  border: 4px solid yellow;
 }
 .team h1 {
   font-weight: 900;
